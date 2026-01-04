@@ -81,4 +81,4 @@ if st.button("🔄 Restart Game"):
     st.session_state.angka_rahasia = random.randint(1, 20)
     st.session_state.attempts = 0
     st.session_state.selesai = False
-    st.experimental_rerun()
+    st.rerun()
